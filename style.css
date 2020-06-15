@@ -1,0 +1,66 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #0c1238;
+}
+
+.start {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.hide {
+    display: none;
+}
+
+@font-face {
+    font-family: "digital-7";
+    src: url("digital-7\ \(mono\ italic\).ttf");
+}
+
+p.clock {
+    transition-duration: 0.3s;
+    position: relative;
+    font-family: digital-7, Arial, Helvetica, sans-serif;
+    font-size: 250px;
+    text-align: center;
+    color: #fff;
+    bottom: 150px;
+
+}
+p.clock:hover {
+    font-size: 260px;
+    color: #ffbb62
+}
+.button {
+    background-color: #0c1238;   
+    box-shadow: #000000;
+    border: none;
+    border-bottom: 3px solid blueviolet;
+    border-top: 3px solid blueviolet;
+    border-radius: 10%;
+    font-size: 40px ;
+    transition-duration: 0.3s;
+    color: #fff
+}
+
+.button:hover {
+    border-bottom: 1px solid rgb(146, 12, 124);
+    border-top: 1px solid rgb(146, 12, 124);
+}
+
+.author {
+    font-style: italic;
+    text-align: right;
+    color: #fff
+      
+}
+
+a:link {
+    position: relative;
+    margin-right: 10px;
+    font-style: italic;
+    text-align: right;
+    color: #fff
+}
